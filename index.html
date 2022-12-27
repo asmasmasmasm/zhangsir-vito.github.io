@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奥运五环</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+            background-image: radial-gradient(circle at center, #fff, red);
+        }
+        div {
+            width: 380px;
+            height: 180px;
+            perspective: 1000px;
+            transform-style: preserve-3d;
+            transform: scale(1.2, 1.2);
+        }
+        span {
+            display: inline-block;
+            border: 10px solid;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: relative;
+            padding: 1px;
+            --r: -65px;
+            --t: -70px;
+        }
+        span:nth-child(1) {
+            border-color: #0282c9;
+            transform: translateZ(0.1px) rotateX(-1deg);
+        }
+        span:nth-child(2) {
+            border-color: #000;
+            transform: rotateY(-3deg) rotateX(1deg);
+        }
+        span:nth-child(3) {
+            border-color: red;
+            transform: translateZ(0.1px) rotateX(1deg);
+        }
+        span:nth-child(4) {
+            border-color: #fcb131;
+            transform: rotateX(1deg);
+            top: var(--t);
+            right: var(--r);
+        }
+        span:nth-child(5) {
+            border-color: #00a652;
+            transform: rotateX(-1deg) rotateY(3deg);
+            top: var(--t);
+            right: var(--r);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</body>
+</html>
