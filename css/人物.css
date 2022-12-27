@@ -1,0 +1,22 @@
+dl {
+    height: 721px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-weight: 150;
+    padding-left: 50px;
+}
+
+dt {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+dd {
+    font-size: 22px;
+    line-height: 100px;
+}
+
+.box {
+    color: aliceblue;
+}

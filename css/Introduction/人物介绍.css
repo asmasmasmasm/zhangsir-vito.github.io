@@ -1,0 +1,23 @@
+.top {
+    height: 520px;
+    width: 1160px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 100px 50px 100px 50px;
+}
+
+h2 {
+    font-weight: 50;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.str {
+    margin-top: 30px;
+}
+
+.box {
+    background-size: 100%;
+    color: aliceblue;
+    width: 1260px;
+    margin: 0 auto;
+}

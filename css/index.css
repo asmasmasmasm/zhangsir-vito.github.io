@@ -1,0 +1,100 @@
+.heads {
+    height: 530px;
+    background: url(../image/图片1.png) no-repeat;
+}
+
+.box {
+    position: relative;
+}
+
+h2,
+.DaTout,
+.spans {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+
+}
+
+h2,
+.DaTou,
+.DaTout {
+    top: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: normal;
+    padding-right: 30px;
+    left: 150px;
+}
+
+.spans {
+    height: 150px;
+    border: 2px solid salmon;
+    border-radius: 2px;
+    left: 400px;
+}
+
+.DaTout {
+    left: 450px;
+}
+
+
+.DaTou {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.DaTou:nth-child(1) {
+    background: url(../image/路飞.jpg) no-repeat;
+    background-size: contain;
+}
+
+.DaTou:nth-child(2) {
+    background: url(../image/索隆.jpg) no-repeat;
+    background-size: contain;
+}
+
+.DaTou:nth-child(3) {
+    background: url(../image/山治.jpg) no-repeat;
+    background-size: contain;
+}
+
+.DaTou:nth-child(4) {
+    background: url(../image/娜美.jpg) no-repeat;
+    background-size: contain;
+}
+
+.DaTou:nth-child(5) {
+    background: url(../image/乌索普.jpg) no-repeat;
+    background-size: contain;
+}
+
+.DaTou:nth-child(6) {
+    background: url(../image/乔巴.jpg) no-repeat;
+    background-size: contain;
+}
+
+.DaTou:nth-child(7) {
+    background: url(../image/罗宾.jpg) no-repeat;
+    background-size: contain;
+}
+
+.DaTou:nth-child(8) {
+    background: url(../image/布鲁克.jpg) no-repeat;
+    background-size: contain;
+}
+
+.DaTou:nth-child(9) {
+    background: url(../image/甚平.jpg) no-repeat;
+    background-size: contain;
+}
+
+.DaTou:nth-child(10) {
+    background: url(../image/弗兰奇.jpg) no-repeat;
+    background-size: contain;
+}
